@@ -1,5 +1,6 @@
 default[:monit][:send_alerts]           = true
-default[:monit][:notify_email]          = "notify@example.com"
+default[:monit][:notify_email]          = nil
+default[:monit][:notify_emails]         = []
 
 default[:monit][:poll_period]           = 60
 default[:monit][:poll_start_delay]      = 120
